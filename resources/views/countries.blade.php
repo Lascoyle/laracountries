@@ -17,7 +17,6 @@
                 <li class="list-group-item country-capital" style="background-color: #1e2224">Capital : {{ $datas['capital'] }}</li>
                 <li class="list-group-item country-area" style="background-color: #1e2224"> Area : {{ $datas['area'] }} km²</li>
                 <li class="list-group-item country-population" style="background-color: #1e2224">Population : {{ $datas['population'] }} inhabitants</li>
-                <li class="list-group-item country-currency" style="background-color: #1e2224">Currency : {{ $datas['currencies'] =>[] }}</li>
             </ul>
         </div>
     </li>
