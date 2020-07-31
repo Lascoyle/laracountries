@@ -23,6 +23,7 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "webpack": "^4.44.1"
     }
 }

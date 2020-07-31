@@ -7,6 +7,9 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Animate On Scroll
+@import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
+
 //SCSS Files
 @import 'layout';
 @import 'countries';
