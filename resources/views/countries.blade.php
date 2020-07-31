@@ -10,12 +10,14 @@
         <div class="card-img">
             <img src="{{ $datas['flag'] }}" alt="country flag" class="img-fluid">
         </div>
-        <div class="card-body p-0" style="background-color: #313638;" >
-            <p class="country-region ">Region : {{ $datas['region'] }}</p>
-            <p class="country-subregion">Subregion : {{ $datas['subregion'] }}</p>
+        <div class="card-body p-0" style="background-color: #ffffff;" >
+            <p class="country-region" style="color: #16191a">Region : {{ $datas['region'] }}</p>
+            <p class="country-subregion" style="color: #16191a">Subregion : {{ $datas['subregion'] }}</p>
             <ul class="list-group list-group-flush p-0">
                 <li class="list-group-item country-capital" style="background-color: #1e2224">Capital : {{ $datas['capital'] }}</li>
-                <li class="list-group-item population" style="background-color: #1e2224">Population : {{ $datas['population'] }}</li>
+                <li class="list-group-item country-area" style="background-color: #1e2224"> Area : {{ $datas['area'] }} km²</li>
+                <li class="list-group-item country-population" style="background-color: #1e2224">Population : {{ $datas['population'] }} inhabitants</li>
+                <li class="list-group-item country-currency" style="background-color: #1e2224">Currency : {{ $datas['currencies'] =>[] }}</li>
             </ul>
         </div>
     </li>
